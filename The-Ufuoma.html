@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="Utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" type="text/css" href="Personal-Profile.css"/>
+</head>
+<body>
+    <header>
+        <section>
+            <div class="text-container">
+            <p>Hello,</p>
+            <p>I'm UFUOMA</p>
+            <p>Frontend @Start.ng</p>
+            <button class="get-in-touch">Get in touch</button>
+            <button class="down-cv">Download CV</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="about-container">
+            <img src= "images/Ufuoma02.jpg" class="image" alt="image">
+            <div class= "about text">
+                <p><h1>Bio-Data</h1>
+                <div>Name: Esiobise Monica Ufuoma</div>
+                <div>State of Origin: Delta State</div>
+                <div>Hometown: Ewu</div>
+                <div>Date of Birth: 20th April 1994</div>
+                <div>Occupation: Personal Secretary</div>
+                <div>Address: 7 Nissi close, Mbamara Street Off Location road, Umuebule II, Etche, Rivers State.</div>
+                <div>Slack ID: The-Ufuoma</div></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+    <main>
+        <div class="form-container">
+                <h3>Collaborate with The-Ufuoma</h3>
+            <form>
+                <div class="fill">
+                    <label for>Full Name</label>
+                    <input class="put" name="fullname" type="text" id placeholder="Full Name" value />
+                </div>
+                <div class="fill">
+                    <label for>Email Address</label>
+                    <input class="put" name="email" type="email" id placeholder="Email Address" value />
+                </div>
+                <div class="fill">
+                    <label for>Phone Number</label> 
+                    <input class="put" name="phone" type="tel" id placeholder="Phone Number" value />
+                </div>
+                <div class="fill">
+                    <label for>How Did You Hear About Me? (Optional)</label>
+                    <input id="select" onclick="close" type="text" list="referral" id="" placeholder="Click To Select"
+                        name="" />
+                    <div class="dlist">
+                        <datalist id="referral">
+                            <option value="Click To Select"></option>
+                            <option value="Twitter"></option>
+                            <option value="Instagram"></option>
+                            <option value="Friend/Family/Coworker Referral"></option>
+                            <option value="Google search"></option>
+                            <option value="Github"></option>
+                            <option value="Startng2020 workspace"></option>
+                            <option value="Slack"></option>
+                            <option value="Other"></option>
+                        </datalist>
+                    </div>
+                    <div class="fill">
+                    <label for>Referrer Phone(Optional)</label>
+                    <input class="put" name="promocode" type="text" id placeholder="Referrer Phone" value />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
